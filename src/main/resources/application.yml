@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:postgresql://stanlin.wanari.com:5432/spring-specification-example
+    username: spring-specification-example
+    password: spring-specification-example
+liquibase:
+  change-log: classpath:liquibase/master.xml
